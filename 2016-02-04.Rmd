@@ -170,7 +170,7 @@ Next move to the population mean, by dividing through by N:
 $$\hat\mu = \frac{\hat\tau}{N} = \frac{\sum_i^{L} \hat\tau_i}{N}$$
 
 Then recall that $\hat\tau_i = N_i\bar{y_i}$ to get:
-$$\hat\mu = \frac{\hat\tau}{N} = \frac{\sum_i^{L} \hat\tau_i = N_i\bar y_i}{N} = \sum_{i=1}^L W_i\bar{y}_i = \bar y_{st} \quad \text{(definition)}$$
+$$\hat\mu = \frac{\hat\tau}{N} = \frac{\sum_i^{L} N_i\bar y_i}{N} = \sum_{i=1}^L W_i\bar{y}_i = \bar y_{st} \quad \text{(definition)}$$
 
 ## properties of the estimators
 
